@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB193A582AA8ACF900C97678 /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB193A572AA8ACF900C97678 /* switch.wav */; };
 		EB5512722AA0CB9C000A6B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5512712AA0CB9C000A6B79 /* AppDelegate.swift */; };
 		EB5512742AA0CB9C000A6B79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5512732AA0CB9C000A6B79 /* SceneDelegate.swift */; };
 		EB5512762AA0CB9C000A6B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5512752AA0CB9C000A6B79 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB193A572AA8ACF900C97678 /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch.wav; sourceTree = "<group>"; };
 		EB55126E2AA0CB9C000A6B79 /* Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5512712AA0CB9C000A6B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB5512732AA0CB9C000A6B79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				EB55127A2AA0CB9D000A6B79 /* Assets.xcassets */,
 				EB55127C2AA0CB9D000A6B79 /* LaunchScreen.storyboard */,
 				EB55127F2AA0CB9D000A6B79 /* Info.plist */,
+				EB193A572AA8ACF900C97678 /* switch.wav */,
 			);
 			path = Flashlight;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB193A582AA8ACF900C97678 /* switch.wav in Resources */,
 				EB55127E2AA0CB9D000A6B79 /* LaunchScreen.storyboard in Resources */,
 				EB55127B2AA0CB9D000A6B79 /* Assets.xcassets in Resources */,
 				EB5512792AA0CB9C000A6B79 /* Main.storyboard in Resources */,
