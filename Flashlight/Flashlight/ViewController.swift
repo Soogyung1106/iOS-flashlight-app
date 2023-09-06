@@ -37,6 +37,7 @@ class ViewController: UIViewController {
     
     //플래시를 키고 끄는 펑션
     func toggleTorch(on: Bool) {
+        //iOS 6.0부터 사용 가능한 펑션이다.
         guard let device = AVCaptureDevice.default(for: .video) else { return }
 
         if device.hasTorch {
